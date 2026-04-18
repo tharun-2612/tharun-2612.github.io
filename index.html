@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Tharun Mohite Vasanth, an aspiring Junior Front-End Developer with HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, PHP, MySQL, and full-stack project experience." />
+  <meta name="author" content="Tharun Mohite Vasanth" />
+  <meta name="theme-color" content="#07111f" />
+
+  <meta property="og:title" content="Tharun Mohite Vasanth | Junior Front-End Developer" />
+  <meta property="og:description" content="Front-end portfolio featuring responsive UI work, full-stack authentication experience, and secure web development projects." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Tharun Mohite Vasanth Portfolio" />
+  <meta property="og:image" content="assets/social-preview.svg" />
+  <meta property="og:image:type" content="image/svg+xml" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Tharun Mohite Vasanth | Junior Front-End Developer" />
+  <meta name="twitter:description" content="Responsive UI, secure authentication flows, and full-stack project experience." />
+  <meta name="twitter:image" content="assets/social-preview.svg" />
+
+  <title>Tharun Mohite Vasanth | Junior Front-End Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="asteroidBackground" class="asteroid-background" aria-hidden="true"></canvas>
+
+  <header class="hero">
+    <nav class="nav">
+      <h1 class="logo">Tharun M.V.</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <div class="hero-content-text">
+        <p class="intro">Junior Front-End Developer</p>
+        <h2>Junior Front-End Developer with full-stack project experience.</h2>
+        <p>
+          MSc Information Technology graduate building responsive interfaces,
+          authentication flows, PHP/MySQL web apps, and deployed full-stack projects
+          with a focus on clean user journeys and practical problem solving.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="assets/Tharun-Mohite-Vasanth-CV.docx" class="btn btn-secondary" download>Download CV</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Portfolio highlights">
+        <p class="panel-eyebrow">Portfolio Snapshot</p>
+        <h3>Responsive interfaces backed by real deployment experience.</h3>
+
+        <div class="panel-grid">
+          <div>
+            <span>Core Skills</span>
+            <strong>HTML, CSS, JavaScript</strong>
+          </div>
+          <div>
+            <span>Project Depth</span>
+            <strong>Node.js, Express, MongoDB</strong>
+          </div>
+          <div>
+            <span>Main Focus</span>
+            <strong>Responsive UI and secure flows</strong>
+          </div>
+        </div>
+
+        <div class="panel-socials" aria-label="Profile links">
+          <a href="https://github.com/tharun-2612" target="_blank" rel="noopener noreferrer" aria-label="Open GitHub profile">
+            <img class="panel-social-icon skill-icon-invert" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="" loading="lazy" />
+            <span>GitHub</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/tharun-kumar-46815b294" target="_blank" rel="noopener noreferrer" aria-label="Open LinkedIn profile">
+            <img class="panel-social-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="" loading="lazy" />
+            <span>LinkedIn</span>
+          </a>
+        </div>
+
+        <p class="panel-note">
+          Built around clean interfaces, form validation, and practical user journeys.
+        </p>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <div id="about" class="about-block">
+      <section class="section about-section">
+        <h2>About Me</h2>
+        <p class="about-typewriter" data-typewriter>
+          I am an aspiring Junior Front-End Developer with a strong interest in building
+          responsive websites and intuitive digital interfaces. I recently completed an
+          MSc in Information Technology at Robert Gordon University, where I developed
+          a secure authentication web application focused on improving cybersecurity
+          practices for SMEs. My experience includes front-end UI development, form
+          validation, authentication flows, and creating user-friendly layouts for
+          non-technical users.
+        </p>
+      </section>
+
+      <section class="globe-section">
+        <div class="globe-container">
+          <canvas id="globeCanvas"></canvas>
+        </div>
+
+        <div class="globe-text">
+          <h3>Global Collaboration</h3>
+          <p>
+            Flexible across time zones, comfortable with remote collaboration, and confident
+            communicating clearly with international teams and clients.
+          </p>
+
+          <div class="globe-badges">
+            <span>Remote Friendly</span>
+            <span>Cross-Time-Zone Communication</span>
+            <span>International Collaboration</span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="education" class="section education-section" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+
+      <div class="education-timeline">
+        <article class="education-card education-card-primary">
+          <div class="education-badge education-icon-badge" aria-hidden="true">
+            <img src="assets/masters-degree-icon.svg" alt="" loading="lazy" />
+          </div>
+
+          <figure class="education-media">
+            <img
+              src="assets/rgu-campus.jpg"
+              alt="Aerial view of Robert Gordon University campus in Aberdeen"
+              loading="lazy"
+            />
+            <figcaption>
+              Robert Gordon University campus, Aberdeen
+            </figcaption>
+          </figure>
+
+          <div class="education-content">
+            <p class="education-kicker">Postgraduate Degree</p>
+            <h3>Robert Gordon University</h3>
+            <p class="education-location">Aberdeen, Scotland, United Kingdom</p>
+            <p class="education-year">2023 - 2024</p>
+            <p class="education-degree">MSc Information Technology</p>
+            <p>
+              Strengthened practical knowledge in web development, databases, secure
+              systems, and research-led problem solving. Completed a secure authentication
+              dissertation project focused on improving cybersecurity adoption for UK retail SMEs.
+            </p>
+            <div class="education-tags" aria-label="MSc focus areas">
+              <span>Secure Web Systems</span>
+              <span>Database Development</span>
+              <span>Research Project</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="education-card">
+          <div class="education-badge education-icon-badge" aria-hidden="true">
+            <img src="assets/bachelors-degree-icon.svg" alt="" loading="lazy" />
+          </div>
+
+          <figure class="education-media">
+            <img
+              src="assets/madras-university.webp"
+              alt="University of Madras campus building in Chennai"
+              loading="lazy"
+            />
+            <figcaption>
+              University of Madras campus, Chennai
+            </figcaption>
+          </figure>
+
+          <div class="education-content">
+            <p class="education-kicker">Undergraduate Degree</p>
+            <h3>University of Madras</h3>
+            <p class="education-location">India</p>
+            <p class="education-year">2020 - 2023</p>
+            <p class="education-degree">B.Com Information Systems</p>
+            <p>
+              Built a foundation across commerce, business systems, information management,
+              and digital processes, supporting a balanced understanding of technology and
+              real-world business needs.
+            </p>
+            <div class="education-tags" aria-label="Undergraduate focus areas">
+              <span>Information Systems</span>
+              <span>Business Processes</span>
+              <span>Commerce Foundation</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <div class="project-card featured-project">
+        <figure class="project-preview">
+          <img src="assets/project-auth-preview.svg" alt="Secure Authentication Web App preview" loading="lazy" />
+          <figcaption>Secure auth flow</figcaption>
+        </figure>
+        <p class="project-kicker">MSc Dissertation Project</p>
+        <h3>Secure Authentication Web App</h3>
+        <p>
+          Built with Node.js, Express, MongoDB Atlas, bcrypt password hashing, and
+          JWT authentication. Developed as a research-backed full-stack project for
+          secure registration, login, and 2FA user flows.
+        </p>
+        <ul class="project-highlights">
+          <li>Designed registration, login, 2FA setup, and dashboard journeys from Figma wireframes.</li>
+          <li>Implemented real-time password strength validation and secure authentication flows.</li>
+          <li>Used bcrypt hashing with salting, MongoDB Atlas storage, JWT auth, and environment-based credential handling.</li>
+          <li>Added OTP delivery with Nodemailer, login rate limiting, and HTTPS testing with SSL/TLS.</li>
+          <li>Tested core flows with Chrome DevTools, Postman, BrowserStack, and targeted security checks.</li>
+        </ul>
+
+        <div class="project-results" aria-label="Project evaluation results">
+          <p><strong>98%</strong><span>weak-password blocking in validation tests</span></p>
+          <p><strong>100%</strong><span>OTP generation, delivery, and validation success in testing</span></p>
+          <p><strong>90%</strong><span>2FA setup completion by non-technical test users without support</span></p>
+        </div>
+
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript, Node.js, Express, MongoDB Atlas, bcrypt, JWT, Nodemailer</p>
+        <p>
+          <strong>Focus:</strong> Responsive UI, authentication flows, secure data storage,
+          usability testing, SME-focused cybersecurity
+        </p>
+        <p class="project-impact">
+          <strong>Impact:</strong> Validated the full authentication journey with 98% weak-password blocking,
+          100% OTP test success, and 90% 2FA setup completion by non-technical test users.
+        </p>
+
+        <p class="project-live-note">
+          <strong>Note:</strong> Please use test credentials only. Email OTP 2FA works locally,
+          but live OTP email requires a paid SMTP-enabled deployment or an email API provider.
+        </p>
+        <div class="project-links">
+          <a href="https://secure-authentication-webservice.onrender.com" target="_blank" rel="noopener noreferrer" class="btn-sm">Live Demo</a>
+          <a href="https://github.com/tharun-2612/2324425-CMM500-project.git" target="_blank" rel="noopener noreferrer" class="btn-sm outline">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <figure class="project-preview">
+          <img src="assets/project-teamo-preview.svg" alt="TeamO Mart Marketplace Web App preview" loading="lazy" />
+          <figcaption>Marketplace flow</figcaption>
+        </figure>
+        <p class="project-kicker">PHP and MySQL Coursework Project</p>
+        <h3>TeamO Mart Marketplace Web App</h3>
+        <p>
+          Built a marketplace-style web application for browsing products and services,
+          managing seller listings, and supporting a basic cart-to-delivery checkout flow.
+        </p>
+        <ul class="project-highlights">
+          <li>Implemented user-facing pages for sign up, login, homepage browsing, product details, and cart flow.</li>
+          <li>Built signup and login handling with duplicate email/username checks and password_hash/password_verify.</li>
+          <li>Used PHP sessions to support logged-in navigation and shopping cart state.</li>
+          <li>Connected the app to a MySQL database with PDO queries for products, services, users, and buyer details.</li>
+          <li>Created seller dashboard functionality to upload, update, and delete marketplace items with image upload handling.</li>
+          <li>Added category, subcategory, and search filtering for product and service discovery.</li>
+        </ul>
+        <p><strong>Tech:</strong> PHP, MySQL, PDO, PHP sessions, password hashing, HTML, CSS, Bootstrap, JavaScript</p>
+        <p><strong>Focus:</strong> Marketplace UI, database-driven pages, authentication forms, seller CRUD, cart flow, form handling</p>
+        <p class="project-impact">
+          <strong>Impact:</strong> Delivered a live marketplace demo covering account creation,
+          seller CRUD, product discovery, cart state, and checkout-to-delivery flow.
+        </p>
+        <p class="project-live-note">
+          <strong>Demo note:</strong> Coursework demo for testing only. Please use test details
+          and avoid entering real personal, payment, or password information.
+        </p>
+        <div class="project-links">
+          <a href="https://teammarto.xo.je/login.php" target="_blank" rel="noopener noreferrer" class="btn-sm">Live Demo</a>
+          <a href="https://github.com/tharun-2612/CMM040-Increment-A0.git" target="_blank" rel="noopener noreferrer" class="btn-sm outline">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <figure class="project-preview">
+          <img src="assets/project-cooking-preview.svg" alt="Cooking Foodie Recipe Web App preview" loading="lazy" />
+          <figcaption>Recipe platform</figcaption>
+        </figure>
+        <p class="project-kicker">PHP and MySQL Recipe Platform</p>
+        <h3>Cooking Foodie Recipe Web App</h3>
+        <p>
+          Built a database-backed recipe web application for browsing food content,
+          managing user roles, and giving cook/chef users a dashboard to maintain recipes.
+        </p>
+        <ul class="project-highlights">
+          <li>Created sign up and login flows with role selection for recipe seekers and cook/chef users.</li>
+          <li>Used PHP sessions to protect signed-in pages and support role-aware navigation.</li>
+          <li>Built a chef dashboard to add, view, edit, and delete recipes stored in a MySQL recipes table.</li>
+          <li>Added profile update functionality for user account details pulled from the database.</li>
+          <li>Designed a recipe browsing homepage with category sections, featured recipe cards, and external recipe resources.</li>
+          <li>Implemented JavaScript UI interactions including a recipe slider, search toggle, mobile navigation, and saved dark mode preference.</li>
+        </ul>
+        <p><strong>Tech:</strong> PHP, MySQL, MySQLi, HTML, CSS, JavaScript, Font Awesome</p>
+        <p><strong>Focus:</strong> Recipe content management, role-based access, PHP sessions, CRUD operations, responsive UI, dark mode interactions</p>
+        <p class="project-impact">
+          <strong>Impact:</strong> Delivered a live role-based recipe CMS demo with protected sessions,
+          chef dashboard CRUD, profile updates, and responsive recipe browsing.
+        </p>
+        <p class="project-live-note">
+          <strong>Demo note:</strong> Coursework demo for testing only. Please use test details
+          and do not reuse any real password.
+        </p>
+        <div class="project-links">
+          <a href="https://cookingfoodierecipe.xo.je/login.php" target="_blank" rel="noopener noreferrer" class="btn-sm">Live Demo</a>
+          <a href="https://github.com/tharun-2612/CMM007-Project.git" target="_blank" rel="noopener noreferrer" class="btn-sm outline">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skills-grid" aria-label="Technical skills">
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="" loading="lazy" />
+          <h3>HTML5</h3>
+          <p>Semantic page structure</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="" loading="lazy" />
+          <h3>CSS3</h3>
+          <p>Responsive layouts</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="" loading="lazy" />
+          <h3>JavaScript</h3>
+          <p>Interactive interfaces</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="" loading="lazy" />
+          <h3>React</h3>
+          <p>Component-based UI</p>
+        </article>
+
+        <article class="skill-card">
+          <img class="skill-icon-invert" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="" loading="lazy" />
+          <h3>Express</h3>
+          <p>API routing</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="" loading="lazy" />
+          <h3>MongoDB, Mongoose, and Atlas</h3>
+          <p>Cloud database models</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="" loading="lazy" />
+          <h3>Git</h3>
+          <p>Version control</p>
+        </article>
+
+        <article class="skill-card">
+          <img class="skill-icon-invert" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg" alt="" loading="lazy" />
+          <h3>WordPress</h3>
+          <p>CMS page builds</p>
+        </article>
+
+        <article class="skill-card">
+          <img class="skill-icon-invert" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="" loading="lazy" />
+          <h3>PHP Web Development</h3>
+          <p>Server-rendered marketplace pages</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="" loading="lazy" />
+          <h3>MySQL, PDO, and MySQLi</h3>
+          <p>Relational database queries</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="assets/skill-session.svg" alt="" loading="lazy" />
+          <h3>PHP Sessions and Login Flow</h3>
+          <p>Logged-in navigation and cart state</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="assets/skill-crud.svg" alt="" loading="lazy" />
+          <h3>Seller CRUD and Image Uploads</h3>
+          <p>Upload, update, and delete items</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="assets/skill-cart.svg" alt="" loading="lazy" />
+          <h3>Cart and Checkout Flow</h3>
+          <p>Cart, delivery details, and order flow</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="" loading="lazy" />
+          <h3>Bootstrap UI Development</h3>
+          <p>Responsive marketplace layouts</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="assets/skill-recipe.svg" alt="" loading="lazy" />
+          <h3>Recipe CRUD Dashboard</h3>
+          <p>Add, edit, delete, and view recipes</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="assets/skill-role-access.svg" alt="" loading="lazy" />
+          <h3>Role-Based PHP Access</h3>
+          <p>Recipe seeker and cook/chef flows</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="assets/skill-ui-controls.svg" alt="" loading="lazy" />
+          <h3>JavaScript UI Controls</h3>
+          <p>Slider, search, mobile nav, and dark mode</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="" loading="lazy" />
+          <h3>Backend Development with Node.js and Express</h3>
+          <p>API routes and server logic</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="assets/skill-auth.svg" alt="" loading="lazy" />
+          <h3>Authentication System Design</h3>
+          <p>Registration, login, and protected flows</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="assets/skill-jwt.svg" alt="" loading="lazy" />
+          <h3>Password Security and JWT Authentication</h3>
+          <p>bcryptjs hashing and token sessions</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="assets/skill-email.svg" alt="" loading="lazy" />
+          <h3>Email OTP 2FA and Nodemailer</h3>
+          <p>One-time code verification</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="assets/skill-env.svg" alt="" loading="lazy" />
+          <h3>Environment Variables and Secrets</h3>
+          <p>.env and Render configuration</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="assets/skill-deploy.svg" alt="" loading="lazy" />
+          <h3>Cloud Deployment</h3>
+          <p>Render and MongoDB Atlas setup</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="assets/skill-debug.svg" alt="" loading="lazy" />
+          <h3>Deployment Debugging and Troubleshooting</h3>
+          <p>Logs, SMTP, whitelist, and start scripts</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="assets/skill-hardening.svg" alt="" loading="lazy" />
+          <h3>Security Hardening</h3>
+          <p>Rate limits and private file protection</p>
+        </article>
+      </div>
+
+      <div class="skills-support" aria-label="Supporting strengths">
+        <span>Responsive Design</span>
+        <span>UI Development</span>
+        <span>Form Validation</span>
+        <span>Authentication Flows</span>
+        <span>Debugging</span>
+      </div>
+    </section>
+
+   <section id="contact" class="section">
+  <h2>Contact</h2>
+
+  <p id="email" class="clickable">
+    Email: kumartharun2612@gmail.com
+  </p>
+
+  <p class="phone-contact">
+    <span class="contact-flag">
+      <img src="assets/uk-flag.svg" alt="United Kingdom flag" class="contact-flag-icon" loading="lazy" />
+    </span>
+    Phone:
+    <a href="tel:+447508276428">+44 7508276428</a>
+  </p>
+
+  <p>
+    GitHub:
+    <a href="https://github.com/tharun-2612" target="_blank" rel="noopener noreferrer">
+      github.com/tharun-2612
+    </a>
+  </p>
+
+  <p>
+    LinkedIn:
+    <a href="https://www.linkedin.com/in/tharun-kumar-46815b294" target="_blank" rel="noopener noreferrer">
+      linkedin.com/in/tharun-kumar-46815b294
+    </a>
+  </p>
+</section>
+</main>
+
+<div id="toast" class="toast">Copied to clipboard</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

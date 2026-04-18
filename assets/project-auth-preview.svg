@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Secure authentication dashboard preview">
+  <defs>
+    <linearGradient id="authBg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06111d"/>
+      <stop offset="0.48" stop-color="#10253a"/>
+      <stop offset="1" stop-color="#141d2f"/>
+    </linearGradient>
+    <linearGradient id="authAccent" x1="170" y1="90" x2="800" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67e8f9"/>
+      <stop offset="0.5" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.4 0 0 0 0 0.9 0 0 0 0 1 0 0 0 0.45 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect width="960" height="540" fill="url(#authBg)"/>
+  <path d="M0 430c140-60 220-20 350-64 120-40 172-138 318-92 92 29 148 84 292 45v221H0z" fill="#061827" opacity=".82"/>
+  <g opacity=".28">
+    <path d="M80 96h800M80 176h800M80 256h800M80 336h800M80 416h800M160 60v420M320 60v420M480 60v420M640 60v420M800 60v420" stroke="#ffffff" stroke-width="1"/>
+  </g>
+  <rect x="92" y="82" width="776" height="376" rx="22" fill="#08111f" stroke="#20364c" stroke-width="2"/>
+  <rect x="92" y="82" width="776" height="56" rx="22" fill="#0f2132"/>
+  <circle cx="130" cy="110" r="7" fill="#ef4444"/>
+  <circle cx="154" cy="110" r="7" fill="#facc15"/>
+  <circle cx="178" cy="110" r="7" fill="#22c55e"/>
+  <rect x="214" y="103" width="178" height="14" rx="7" fill="#dbeafe" opacity=".18"/>
+  <rect x="118" y="166" width="290" height="250" rx="18" fill="#0c1b2e" stroke="#243c57"/>
+  <path d="M263 188l72 26v50c0 54-34 93-72 112-38-19-72-58-72-112v-50z" fill="#07111f" stroke="url(#authAccent)" stroke-width="5" filter="url(#softGlow)"/>
+  <path d="M241 276l18 18 38-48" fill="none" stroke="#67e8f9" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="446" y="166" width="290" height="250" rx="18" fill="#0c1b2e" stroke="#243c57"/>
+  <text x="482" y="214" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Login Security</text>
+  <rect x="482" y="242" width="218" height="34" rx="8" fill="#12283c" stroke="#2b4b68"/>
+  <rect x="482" y="294" width="218" height="34" rx="8" fill="#12283c" stroke="#2b4b68"/>
+  <rect x="482" y="350" width="120" height="36" rx="8" fill="#67e8f9"/>
+  <text x="515" y="374" fill="#08111f" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800">Verify</text>
+  <g transform="translate(762 178)">
+    <rect width="80" height="80" rx="16" fill="#0c1b2e" stroke="#27465f"/>
+    <text x="22" y="53" fill="#67e8f9" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">2F</text>
+  </g>
+  <g transform="translate(762 282)">
+    <rect width="80" height="80" rx="16" fill="#0c1b2e" stroke="#27465f"/>
+    <text x="18" y="53" fill="#22c55e" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">JWT</text>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Role based access icon">
+  <defs>
+    <linearGradient id="roleGradient" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#facc15"/>
+      <stop offset="0.48" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="12" width="48" height="40" rx="10" fill="#08111f" stroke="url(#roleGradient)" stroke-width="3"/>
+  <circle cx="24" cy="28" r="7" fill="#67e8f9"/>
+  <path d="M13 45c2-8 8-12 11-12s9 4 11 12" fill="none" stroke="#dffcff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M41 23h8v8" fill="none" stroke="#facc15" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M49 23 38 34" fill="none" stroke="#facc15" stroke-width="4" stroke-linecap="round"/>
+  <path d="M39 43h10" stroke="#22c55e" stroke-width="4" stroke-linecap="round"/>
+</svg>

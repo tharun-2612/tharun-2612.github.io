@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"No automated tests configured\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cobe": "^2.0.1"
+  },
+  "description": "Portfolio site for Tharun Mohite Vasanth, Junior Front-End Developer."
+}

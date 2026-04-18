@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="TeamO Mart marketplace preview">
+  <defs>
+    <linearGradient id="teamBg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111f"/>
+      <stop offset="0.52" stop-color="#112f2c"/>
+      <stop offset="1" stop-color="#2a1835"/>
+    </linearGradient>
+    <linearGradient id="teamAccent" x1="70" y1="80" x2="890" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67e8f9"/>
+      <stop offset="0.45" stop-color="#facc15"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#teamBg)"/>
+  <circle cx="810" cy="110" r="130" fill="#facc15" opacity=".08"/>
+  <circle cx="120" cy="430" r="160" fill="#67e8f9" opacity=".08"/>
+  <rect x="82" y="70" width="796" height="398" rx="24" fill="#08111f" stroke="#263c4e" stroke-width="2"/>
+  <rect x="82" y="70" width="796" height="66" rx="24" fill="#0f2132"/>
+  <text x="122" y="112" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800">TeamO Mart</text>
+  <rect x="620" y="92" width="92" height="22" rx="11" fill="#67e8f9"/>
+  <rect x="730" y="92" width="92" height="22" rx="11" fill="#facc15"/>
+  <g transform="translate(118 170)">
+    <rect width="170" height="220" rx="18" fill="#0c1b2e" stroke="#2b465f"/>
+    <rect x="18" y="18" width="134" height="100" rx="14" fill="url(#teamAccent)" opacity=".86"/>
+    <rect x="24" y="142" width="92" height="14" rx="7" fill="#e2e8f0" opacity=".82"/>
+    <rect x="24" y="170" width="118" height="12" rx="6" fill="#94a3b8" opacity=".6"/>
+    <rect x="24" y="194" width="76" height="18" rx="9" fill="#22c55e"/>
+  </g>
+  <g transform="translate(320 170)">
+    <rect width="170" height="220" rx="18" fill="#0c1b2e" stroke="#2b465f"/>
+    <rect x="18" y="18" width="134" height="100" rx="14" fill="#38bdf8" opacity=".78"/>
+    <rect x="24" y="142" width="112" height="14" rx="7" fill="#e2e8f0" opacity=".82"/>
+    <rect x="24" y="170" width="118" height="12" rx="6" fill="#94a3b8" opacity=".6"/>
+    <rect x="24" y="194" width="76" height="18" rx="9" fill="#facc15"/>
+  </g>
+  <g transform="translate(522 170)">
+    <rect width="170" height="220" rx="18" fill="#0c1b2e" stroke="#2b465f"/>
+    <rect x="18" y="18" width="134" height="100" rx="14" fill="#fb7185" opacity=".78"/>
+    <rect x="24" y="142" width="96" height="14" rx="7" fill="#e2e8f0" opacity=".82"/>
+    <rect x="24" y="170" width="118" height="12" rx="6" fill="#94a3b8" opacity=".6"/>
+    <rect x="24" y="194" width="76" height="18" rx="9" fill="#67e8f9"/>
+  </g>
+  <g transform="translate(734 170)">
+    <rect width="108" height="220" rx="18" fill="#101d2c" stroke="#2b465f"/>
+    <path d="M30 55h48l-8 64H38z" fill="none" stroke="#67e8f9" stroke-width="7" stroke-linejoin="round"/>
+    <circle cx="42" cy="145" r="8" fill="#facc15"/>
+    <circle cx="68" cy="145" r="8" fill="#facc15"/>
+    <rect x="24" y="176" width="60" height="22" rx="11" fill="#22c55e"/>
+  </g>
+</svg>

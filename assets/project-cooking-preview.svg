@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Cooking Foodie recipe platform preview">
+  <defs>
+    <linearGradient id="cookBg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111f"/>
+      <stop offset="0.45" stop-color="#1f2937"/>
+      <stop offset="1" stop-color="#102a24"/>
+    </linearGradient>
+    <linearGradient id="cookAccent" x1="96" y1="80" x2="852" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fb7185"/>
+      <stop offset="0.42" stop-color="#facc15"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#cookBg)"/>
+  <path d="M0 376c120-74 238-66 360-34 154 40 272 76 600-24v222H0z" fill="#07111f" opacity=".72"/>
+  <rect x="80" y="78" width="800" height="384" rx="24" fill="#08111f" stroke="#263c4e" stroke-width="2"/>
+  <rect x="80" y="78" width="800" height="64" rx="24" fill="#101f2d"/>
+  <text x="124" y="119" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800">Cooking Foodie</text>
+  <rect x="688" y="96" width="86" height="22" rx="11" fill="#facc15"/>
+  <rect x="790" y="96" width="54" height="22" rx="11" fill="#22c55e"/>
+  <g transform="translate(118 174)">
+    <rect width="220" height="226" rx="20" fill="#0c1b2e" stroke="#2b465f"/>
+    <circle cx="110" cy="83" r="54" fill="url(#cookAccent)"/>
+    <path d="M76 78c20 8 42 8 68 0M82 101c18 10 40 10 56 0" fill="none" stroke="#08111f" stroke-width="8" stroke-linecap="round"/>
+    <rect x="28" y="160" width="132" height="15" rx="8" fill="#e2e8f0" opacity=".82"/>
+    <rect x="28" y="190" width="164" height="12" rx="6" fill="#94a3b8" opacity=".58"/>
+  </g>
+  <g transform="translate(372 174)">
+    <rect width="220" height="226" rx="20" fill="#0c1b2e" stroke="#2b465f"/>
+    <rect x="28" y="28" width="164" height="44" rx="10" fill="#142c3e"/>
+    <rect x="28" y="92" width="164" height="18" rx="9" fill="#67e8f9"/>
+    <rect x="28" y="130" width="164" height="18" rx="9" fill="#facc15"/>
+    <rect x="28" y="168" width="116" height="18" rx="9" fill="#22c55e"/>
+    <path d="M166 166l18 18 28-38" fill="none" stroke="#fb7185" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(626 174)">
+    <rect width="220" height="226" rx="20" fill="#0c1b2e" stroke="#2b465f"/>
+    <text x="32" y="60" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Chef CRUD</text>
+    <rect x="32" y="92" width="156" height="26" rx="8" fill="#142c3e" stroke="#2b465f"/>
+    <rect x="32" y="134" width="156" height="26" rx="8" fill="#142c3e" stroke="#2b465f"/>
+    <rect x="32" y="176" width="72" height="24" rx="8" fill="#67e8f9"/>
+    <rect x="116" y="176" width="72" height="24" rx="8" fill="#fb7185"/>
+  </g>
+</svg>

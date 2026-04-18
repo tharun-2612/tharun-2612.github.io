@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="JavaScript controls icon">
+  <defs>
+    <linearGradient id="controlsGradient" x1="10" y1="10" x2="54" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7df1e"/>
+      <stop offset="0.5" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect x="9" y="12" width="46" height="40" rx="9" fill="#08111f" stroke="url(#controlsGradient)" stroke-width="3"/>
+  <path d="M18 25h22M18 39h28" stroke="#e5f9ff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="43" cy="25" r="5" fill="#f7df1e"/>
+  <circle cx="24" cy="39" r="5" fill="#38bdf8"/>
+  <path d="M47 17 53 11M50 22h7" stroke="#a78bfa" stroke-width="3" stroke-linecap="round"/>
+</svg>

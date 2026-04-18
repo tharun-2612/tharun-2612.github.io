@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Recipe dashboard icon">
+  <defs>
+    <linearGradient id="recipeGradient" x1="10" y1="8" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67e8f9"/>
+      <stop offset="0.52" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="8" width="40" height="48" rx="8" fill="#08111f" stroke="url(#recipeGradient)" stroke-width="3"/>
+  <path d="M22 20h20M22 30h14M22 40h20" stroke="#e5f9ff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M43 28c4 1 7 4 7 8 0 6-5 10-10 10s-10-4-10-10c0-4 3-7 7-8" fill="none" stroke="#67e8f9" stroke-width="3" stroke-linecap="round"/>
+  <path d="M37 27v-5c0-3 2-5 5-5" fill="none" stroke="#f472b6" stroke-width="3" stroke-linecap="round"/>
+</svg>
