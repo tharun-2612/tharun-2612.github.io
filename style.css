@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@600;700;800&display=swap');
 
 :root {
   --bg: #07111f;
@@ -930,6 +930,16 @@ ul {
   backdrop-filter: blur(10px);
 }
 
+.project-preview-label-tech {
+  font-family: "Orbitron", "Inter", sans-serif;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: #cffafe;
+  border-color: rgba(103, 232, 249, 0.34);
+  background: rgba(8, 17, 31, 0.82);
+  text-shadow: 0 0 14px rgba(103, 232, 249, 0.38);
+}
+
 .project-kicker {
   display: inline-flex;
   width: fit-content;
@@ -1081,6 +1091,24 @@ ul {
   font-size: 1.35rem;
   margin-bottom: 14px;
   letter-spacing: 0;
+}
+
+.project-card h3.project-title-tech {
+  max-width: 16ch;
+  font-family: "Orbitron", "Inter", sans-serif;
+  font-size: 2rem;
+  line-height: 1.08;
+  letter-spacing: 0;
+  color: #f8fafc;
+  text-shadow:
+    0 0 16px rgba(103, 232, 249, 0.28),
+    0 0 30px rgba(139, 92, 246, 0.16);
+}
+
+@media (max-width: 768px) {
+  .project-card h3.project-title-tech {
+    font-size: 1.7rem;
+  }
 }
 
 .project-card p {
