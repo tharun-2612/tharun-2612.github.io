@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Real-time dashboard icon">
+  <defs>
+    <linearGradient id="realtimeGradient" x1="8" y1="10" x2="56" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0891b2"/>
+      <stop offset="0.5" stop-color="#0f9f6e"/>
+      <stop offset="1" stop-color="#facc15"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="10" width="48" height="44" rx="8" fill="#08111f" stroke="url(#realtimeGradient)" stroke-width="3"/>
+  <path d="M16 42c7-12 12-2 18-16 5-12 9 4 14-8" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="48" cy="18" r="5" fill="#22c55e"/>
+  <path d="M16 22h10M16 30h6M38 42h10" stroke="#f8fafc" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+</svg>
