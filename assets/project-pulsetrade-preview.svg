@@ -1,46 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="PulseTrade real-time dashboard preview">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="PulseTrade dark real-time dashboard preview">
   <defs>
-    <linearGradient id="pulseBg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#f8fafc"/>
-      <stop offset="0.55" stop-color="#eef6f8"/>
-      <stop offset="1" stop-color="#f5f7fb"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111f"/>
+      <stop offset="0.48" stop-color="#091523"/>
+      <stop offset="1" stop-color="#0b1524"/>
     </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#67e8f9"/>
+      <stop offset="0.55" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="chart" x1="98" y1="414" x2="594" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.404 0 0 0 0 0.91 0 0 0 0 0.976 0 0 0 0.45 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <rect width="960" height="540" fill="url(#pulseBg)"/>
-  <g opacity=".5">
-    <path d="M0 90h960M0 180h960M0 270h960M0 360h960M0 450h960M120 0v540M240 0v540M360 0v540M480 0v540M600 0v540M720 0v540M840 0v540" stroke="#cbd5e1" stroke-width="1"/>
+
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <g opacity=".34">
+    <path d="M0 90h960M0 180h960M0 270h960M0 360h960M0 450h960M120 0v540M240 0v540M360 0v540M480 0v540M600 0v540M720 0v540M840 0v540" stroke="#ffffff" stroke-opacity=".08"/>
+    <circle cx="92" cy="84" r="1.5" fill="#67e8f9"/>
+    <circle cx="194" cy="148" r="1.4" fill="#ffffff"/>
+    <circle cx="324" cy="74" r="1.3" fill="#8b5cf6"/>
+    <circle cx="612" cy="118" r="1.5" fill="#67e8f9"/>
+    <circle cx="820" cy="88" r="1.2" fill="#ffffff"/>
+    <circle cx="766" cy="430" r="1.4" fill="#22c55e"/>
   </g>
-  <rect x="70" y="56" width="820" height="428" rx="18" fill="#ffffff" stroke="#d8dee8" stroke-width="2"/>
-  <rect x="98" y="88" width="360" height="46" rx="8" fill="#111827"/>
-  <text x="120" y="119" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800">PulseTrade Dashboard</text>
-  <rect x="704" y="90" width="112" height="34" rx="8" fill="#e6f8f0" stroke="#0f9f6e" stroke-width="2"/>
-  <circle cx="728" cy="107" r="6" fill="#0f9f6e"/>
-  <text x="744" y="114" fill="#0f9f6e" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Live feed</text>
-  <g transform="translate(98 166)">
-    <rect width="200" height="104" rx="8" fill="#f8fafc" stroke="#d8dee8"/>
-    <text x="20" y="32" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Portfolio</text>
-    <text x="20" y="70" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">£8.99k</text>
-    <path d="M132 78l18-18 20 10 18-34" fill="none" stroke="#0f9f6e" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="148" cy="88" r="154" fill="#67e8f9" opacity=".13"/>
+  <circle cx="830" cy="82" r="178" fill="#8b5cf6" opacity=".13"/>
+  <circle cx="704" cy="462" r="180" fill="#22c55e" opacity=".09"/>
+
+  <rect x="56" y="46" width="848" height="448" rx="8" fill="#08111f" fill-opacity=".78" stroke="#ffffff" stroke-opacity=".12"/>
+  <rect x="56" y="46" width="848" height="4" rx="2" fill="url(#accentLine)"/>
+
+  <g transform="translate(90 78)">
+    <rect x="0" y="0" width="480" height="96" rx="8" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".12"/>
+    <rect x="0" y="0" width="480" height="4" rx="2" fill="url(#accentLine)"/>
+    <text x="24" y="35" fill="#cffafe" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">REACT + TYPESCRIPT REAL-TIME UI DEMO</text>
+    <text x="24" y="72" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="800">PulseTrade Market Dashboard</text>
   </g>
-  <g transform="translate(322 166)">
-    <rect width="200" height="104" rx="8" fill="#f8fafc" stroke="#d8dee8"/>
-    <text x="20" y="32" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Average move</text>
-    <text x="20" y="70" fill="#0f9f6e" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">+1.42%</text>
+
+  <g transform="translate(604 78)">
+    <rect width="210" height="38" rx="8" fill="#22c55e" fill-opacity=".13" stroke="#22c55e" stroke-opacity=".36"/>
+    <circle cx="25" cy="19" r="6" fill="#22c55e" filter="url(#glow)"/>
+    <text x="42" y="25" fill="#dcfce7" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Live feed</text>
+    <rect x="0" y="50" width="210" height="38" rx="8" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".12"/>
+    <text x="22" y="75" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">42ms latency</text>
   </g>
-  <g transform="translate(546 166)">
-    <rect width="246" height="104" rx="8" fill="#f8fafc" stroke="#d8dee8"/>
-    <text x="20" y="32" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Typed market events</text>
-    <text x="20" y="70" fill="#0891b2" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">WebSocket UI</text>
+
+  <g transform="translate(90 206)">
+    <rect width="216" height="110" rx="8" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".12"/>
+    <rect width="216" height="4" rx="2" fill="url(#accentLine)"/>
+    <circle cx="30" cy="34" r="16" fill="#67e8f9" fill-opacity=".11" stroke="#67e8f9" stroke-opacity=".3"/>
+    <text x="22" y="68" fill="#9fb0c7" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Simulated portfolio</text>
+    <text x="22" y="96" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="800">GBP 8.99k</text>
   </g>
-  <g transform="translate(98 304)">
-    <rect width="494" height="134" rx="8" fill="#f8fafc" stroke="#d8dee8"/>
-    <path d="M30 98C80 74 104 96 144 62c42-36 72 20 116-10 48-34 76-72 126-42 38 23 62 38 108 10" fill="none" stroke="#0891b2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M30 98C80 74 104 96 144 62c42-36 72 20 116-10 48-34 76-72 126-42 38 23 62 38 108 10L494 134H0V134Z" fill="#0891b2" opacity=".1"/>
+
+  <g transform="translate(326 206)">
+    <rect width="216" height="110" rx="8" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".12"/>
+    <rect width="216" height="4" rx="2" fill="url(#accentLine)"/>
+    <circle cx="30" cy="34" r="16" fill="#22c55e" fill-opacity=".12" stroke="#22c55e" stroke-opacity=".3"/>
+    <text x="22" y="68" fill="#9fb0c7" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Average move</text>
+    <text x="22" y="96" fill="#86efac" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="800">+1.42%</text>
   </g>
-  <g transform="translate(626 304)">
-    <rect width="194" height="134" rx="8" fill="#f8fafc" stroke="#d8dee8"/>
-    <rect x="20" y="26" width="112" height="18" rx="6" fill="#0f9f6e" opacity=".25"/>
-    <rect x="20" y="56" width="142" height="18" rx="6" fill="#0f9f6e" opacity=".35"/>
-    <rect x="20" y="86" width="86" height="18" rx="6" fill="#d94848" opacity=".28"/>
+
+  <g transform="translate(562 206)">
+    <rect width="252" height="110" rx="8" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".12"/>
+    <rect width="252" height="4" rx="2" fill="url(#accentLine)"/>
+    <circle cx="30" cy="34" r="16" fill="#8b5cf6" fill-opacity=".12" stroke="#8b5cf6" stroke-opacity=".3"/>
+    <text x="22" y="68" fill="#9fb0c7" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Typed market events</text>
+    <text x="22" y="96" fill="#67e8f9" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="800">WebSocket UI</text>
+  </g>
+
+  <g transform="translate(90 346)">
+    <rect width="506" height="110" rx="8" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".12"/>
+    <rect width="506" height="4" rx="2" fill="url(#accentLine)"/>
+    <path d="M30 80C74 60 104 82 144 48c42-36 72 18 116-10 48-32 76-62 126-34 38 22 62 36 108 10" fill="none" stroke="url(#chart)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+    <path d="M30 80C74 60 104 82 144 48c42-36 72 18 116-10 48-32 76-62 126-34 38 22 62 36 108 10L506 110H0V110Z" fill="#67e8f9" opacity=".08"/>
+  </g>
+
+  <g transform="translate(622 346)">
+    <rect width="192" height="110" rx="8" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".12"/>
+    <rect width="192" height="4" rx="2" fill="url(#accentLine)"/>
+    <text x="18" y="32" fill="#9fb0c7" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800">ORDER BOOK</text>
+    <rect x="18" y="48" width="122" height="13" rx="6" fill="#22c55e" opacity=".28"/>
+    <rect x="18" y="70" width="150" height="13" rx="6" fill="#22c55e" opacity=".36"/>
+    <rect x="18" y="92" width="96" height="13" rx="6" fill="#f87171" opacity=".32"/>
   </g>
 </svg>
