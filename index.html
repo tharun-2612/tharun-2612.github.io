@@ -7,8 +7,8 @@
   <meta name="author" content="Tharun Mohite Vasanth" />
   <meta name="theme-color" content="#07111f" />
 
-  <meta property="og:title" content="Tharun Mohite Vasanth | Junior Front-End Developer" />
-  <meta property="og:description" content="Front-end portfolio featuring responsive UI work, full-stack authentication experience, and secure web development projects." />
+  <meta property="og:title" content="Tharun Mohite Vasanth | Junior Software Developer" />
+  <meta property="og:description" content="Software portfolio featuring C++ desktop browser work, React dashboards, secure authentication, and PHP/MySQL web apps." />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Tharun Mohite Vasanth Portfolio" />
   <meta property="og:image" content="assets/social-preview.svg" />
@@ -17,11 +17,11 @@
   <meta property="og:image:height" content="630" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Tharun Mohite Vasanth | Junior Front-End Developer" />
-  <meta name="twitter:description" content="Responsive UI, secure authentication flows, and full-stack project experience." />
+  <meta name="twitter:title" content="Tharun Mohite Vasanth | Junior Software Developer" />
+  <meta name="twitter:description" content="C++ desktop app, React dashboard, secure authentication, and full-stack project experience." />
   <meta name="twitter:image" content="assets/social-preview.svg" />
 
-  <title>Tharun Mohite Vasanth | Junior Front-End Developer</title>
+  <title>Tharun Mohite Vasanth | Junior Software Developer</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -42,11 +42,11 @@
 
     <div class="hero-content">
       <div class="hero-content-text">
-        <p class="intro">Junior Front-End Developer</p>
-        <h2>Junior Front-End Developer with full-stack project experience.</h2>
+        <p class="intro">Junior Software Developer</p>
+        <h2>Junior Software Developer with full-stack and desktop project experience.</h2>
         <p>
-          MSc Information Technology graduate building responsive interfaces,
-          authentication flows, PHP/MySQL web apps, and deployed full-stack projects
+          MSc Information Technology graduate building C++ desktop software,
+          responsive interfaces, authentication flows, and deployed full-stack projects
           with a focus on clean user journeys and practical problem solving.
         </p>
         <div class="hero-buttons">
@@ -63,15 +63,15 @@
         <div class="panel-grid">
           <div>
             <span>Core Skills</span>
-            <strong>HTML, CSS, JavaScript</strong>
+            <strong>C++, React, JavaScript</strong>
           </div>
           <div>
             <span>Project Depth</span>
-            <strong>Node.js, Express, MongoDB</strong>
+            <strong>Qt, Node.js, MongoDB</strong>
           </div>
           <div>
             <span>Main Focus</span>
-            <strong>Responsive UI and secure flows</strong>
+            <strong>Software, UI, and secure flows</strong>
           </div>
         </div>
 
@@ -99,12 +99,12 @@
       <section class="section about-section">
         <h2>About Me</h2>
         <p class="about-typewriter" data-typewriter>
-          I am an aspiring Junior Front-End Developer with a strong interest in building
-          responsive websites and intuitive digital interfaces. I recently completed an
+          I am an aspiring Junior Software Developer with a strong interest in building
+          responsive websites, desktop applications, and intuitive digital interfaces. I recently completed an
           MSc in Information Technology at Robert Gordon University, where I developed
           a secure authentication web application focused on improving cybersecurity
           practices for SMEs. My experience includes front-end UI development, form
-          validation, authentication flows, and creating user-friendly layouts for
+          validation, authentication flows, C++/Qt desktop development, and creating user-friendly layouts for
           non-technical users.
         </p>
       </section>
@@ -208,6 +208,36 @@
 
     <section id="projects" class="section">
       <h2>Projects</h2>
+
+      <div class="project-card featured-project">
+        <figure class="project-preview">
+          <img src="assets/project-astrax-preview.svg" alt="AstraX C++ desktop browser preview" loading="lazy" />
+          <figcaption>C++ desktop browser</figcaption>
+        </figure>
+        <p class="project-kicker">C++20, Qt 6, and Browser Internals Project</p>
+        <h3>AstraX Browser</h3>
+        <p>
+          Built a desktop web browser with C++20, Qt 6, and Qt WebEngine, combining real
+          Chromium-powered browsing with custom browser features, persistent user data,
+          local search, tracker blocking, and an educational Engine Lab.
+        </p>
+        <ul class="project-highlights">
+          <li>Implemented tabbed browsing, navigation, bookmarks, history, downloads, private mode, page info, find-in-page, and Developer Tools.</li>
+          <li>Built AstraX Search to rank local bookmarks and history with live suggestions before falling back to a configured web search provider.</li>
+          <li>Created Engine Lab with custom HTML parsing, DOM tree viewing, CSS parsing, selector matching, specificity inspection, and block layout boxes.</li>
+          <li>Used JSON-backed persistence for bookmarks, history, settings, and sessions with modular core, storage, UI, and engine layers.</li>
+          <li>Added Qt Test coverage for URL handling, storage, HTML parsing, CSS matching, and layout calculation.</li>
+        </ul>
+        <p><strong>Tech:</strong> C++20, Qt 6 Widgets, Qt WebEngine, Qt Network, CMake, Ninja, JSON, HTML/CSS parsing</p>
+        <p><strong>Focus:</strong> Desktop application architecture, browser workflows, persistent data, parser fundamentals, testing</p>
+        <p class="project-impact">
+          <strong>Impact:</strong> Demonstrates practical software engineering with a real browser engine,
+          while showing systems understanding through a custom educational HTML/CSS/layout lab.
+        </p>
+        <p class="project-live-note">
+          <strong>Source:</strong> Public GitHub release is being prepared after cleaning local build files and workspace notes.
+        </p>
+      </div>
 
       <div class="project-card featured-project">
         <figure class="project-preview">
@@ -387,6 +417,24 @@
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="" loading="lazy" />
           <h3>TypeScript</h3>
           <p>Typed dashboard state</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="" loading="lazy" />
+          <h3>C++20</h3>
+          <p>Desktop app structure</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/qt/qt-original.svg" alt="" loading="lazy" />
+          <h3>Qt 6 and WebEngine</h3>
+          <p>Browser UI and Chromium rendering</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cmake/cmake-original.svg" alt="" loading="lazy" />
+          <h3>CMake and Ninja</h3>
+          <p>Native build workflow</p>
         </article>
 
         <article class="skill-card">

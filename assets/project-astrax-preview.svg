@@ -1,0 +1,98 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AstraX Browser preview</title>
+  <desc id="desc">A dark desktop browser interface with tabs, local search results, and an engine lab panel showing DOM, CSS, and layout boxes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="90" y1="42" x2="1110" y2="636" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111f"/>
+      <stop offset="0.48" stop-color="#0d1727"/>
+      <stop offset="1" stop-color="#08131d"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="110" y1="94" x2="1090" y2="564" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#132033"/>
+      <stop offset="1" stop-color="#0a1322"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="126" y1="114" x2="1038" y2="586" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67e8f9"/>
+      <stop offset="0.54" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.38 0 0 0 0 0.91 0 0 0 0 0.98 0 0 0 0.22 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" rx="0" fill="url(#bg)"/>
+  <path d="M96 92C176 50 294 42 396 80C529 130 629 57 755 54C904 51 1034 111 1102 217C1166 317 1136 468 1049 555C960 645 797 637 660 604C550 577 452 604 331 584C186 560 91 469 70 350C50 236 23 130 96 92Z" fill="#67e8f9" opacity="0.05"/>
+  <path d="M107 587L1100 116" stroke="#67e8f9" stroke-opacity="0.12" stroke-width="2"/>
+  <path d="M138 632L1130 188" stroke="#22c55e" stroke-opacity="0.09" stroke-width="2"/>
+
+  <rect x="92" y="76" width="1016" height="536" rx="24" fill="#08111f" stroke="#243247" stroke-width="2"/>
+  <rect x="110" y="94" width="980" height="500" rx="16" fill="url(#chrome)" stroke="#334155"/>
+
+  <rect x="110" y="94" width="980" height="72" rx="16" fill="#101b2d"/>
+  <rect x="110" y="146" width="980" height="20" fill="#101b2d"/>
+  <circle cx="140" cy="124" r="7" fill="#ef4444"/>
+  <circle cx="164" cy="124" r="7" fill="#f59e0b"/>
+  <circle cx="188" cy="124" r="7" fill="#22c55e"/>
+
+  <rect x="225" y="112" width="178" height="34" rx="8" fill="#172338" stroke="#334155"/>
+  <text x="247" y="134" fill="#e5f7ff" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">AstraX Start</text>
+  <rect x="413" y="112" width="166" height="34" rx="8" fill="#0b1424" stroke="#22314a"/>
+  <text x="435" y="134" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="15">Engine Lab</text>
+
+  <rect x="128" y="182" width="516" height="390" rx="14" fill="#091525" stroke="#1e3149"/>
+  <text x="154" y="224" fill="#e6fbff" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="800">AstraX Browser</text>
+  <text x="156" y="255" fill="#93c5fd" font-family="Segoe UI, Arial, sans-serif" font-size="16">C++20 + Qt 6 + Chromium WebEngine</text>
+
+  <rect x="154" y="286" width="448" height="48" rx="8" fill="#0f1c30" stroke="#2d4262"/>
+  <text x="178" y="316" fill="#cffafe" font-family="Consolas, monospace" font-size="17">Search bookmarks, history, or the web</text>
+  <circle cx="568" cy="310" r="13" fill="#67e8f9" opacity="0.18"/>
+  <path d="M563 305A7 7 0 1 1 573 315M572 314L578 320" stroke="#67e8f9" stroke-width="2" stroke-linecap="round"/>
+
+  <g filter="url(#glow)">
+    <rect x="154" y="358" width="132" height="80" rx="10" fill="#0c1b2c" stroke="#67e8f9" stroke-opacity="0.44"/>
+    <rect x="310" y="358" width="132" height="80" rx="10" fill="#0c1b2c" stroke="#60a5fa" stroke-opacity="0.42"/>
+    <rect x="466" y="358" width="132" height="80" rx="10" fill="#0c1b2c" stroke="#22c55e" stroke-opacity="0.38"/>
+  </g>
+  <text x="178" y="391" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Bookmarks</text>
+  <text x="178" y="418" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">JSON</text>
+  <text x="334" y="391" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Private Mode</text>
+  <text x="334" y="418" fill="#60a5fa" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">Profile</text>
+  <text x="490" y="391" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Tracker Block</text>
+  <text x="490" y="418" fill="#22c55e" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">Policy</text>
+
+  <rect x="154" y="466" width="448" height="72" rx="10" fill="#0f1c30" stroke="#213652"/>
+  <text x="178" y="493" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">AstraX Search</text>
+  <text x="178" y="520" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="15">Local ranking first, web fallback second</text>
+  <path d="M478 507H578" stroke="url(#accent)" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="500" cy="507" r="8" fill="#67e8f9"/>
+  <circle cx="552" cy="507" r="8" fill="#22c55e"/>
+
+  <rect x="676" y="182" width="386" height="390" rx="14" fill="#081522" stroke="#1f334d"/>
+  <rect x="698" y="206" width="342" height="54" rx="10" fill="#0f1c30" stroke="#2c4261"/>
+  <text x="721" y="239" fill="#e5f7ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">AstraX Engine Lab</text>
+
+  <rect x="698" y="282" width="150" height="244" rx="10" fill="#0b1626" stroke="#26364e"/>
+  <text x="720" y="314" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">DOM Tree</text>
+  <text x="720" y="348" fill="#dbeafe" font-family="Consolas, monospace" font-size="14">&lt;html&gt;</text>
+  <text x="742" y="378" fill="#bfdbfe" font-family="Consolas, monospace" font-size="14">&lt;body&gt;</text>
+  <text x="764" y="408" fill="#bbf7d0" font-family="Consolas, monospace" font-size="14">&lt;section&gt;</text>
+  <text x="786" y="438" fill="#cffafe" font-family="Consolas, monospace" font-size="14">&lt;h1&gt;</text>
+  <text x="786" y="468" fill="#cffafe" font-family="Consolas, monospace" font-size="14">&lt;p&gt;</text>
+
+  <rect x="872" y="282" width="168" height="113" rx="10" fill="#0b1626" stroke="#26364e"/>
+  <text x="894" y="314" fill="#60a5fa" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Matched CSS</text>
+  <text x="894" y="346" fill="#dbeafe" font-family="Consolas, monospace" font-size="13">#panel { width }</text>
+  <text x="894" y="371" fill="#bbf7d0" font-family="Consolas, monospace" font-size="13">.title { color }</text>
+
+  <rect x="872" y="413" width="168" height="113" rx="10" fill="#0b1626" stroke="#26364e"/>
+  <text x="894" y="445" fill="#22c55e" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Layout Boxes</text>
+  <rect x="897" y="466" width="92" height="34" rx="4" fill="#67e8f9" opacity="0.14" stroke="#67e8f9"/>
+  <rect x="916" y="478" width="54" height="12" rx="2" fill="#22c55e" opacity="0.42"/>
+
+  <rect x="127" y="592" width="966" height="1" fill="url(#accent)" opacity="0.7"/>
+  <text x="136" y="631" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="16">Tabs, downloads, session restore, request blocking, local search, parser tests</text>
+  <text x="920" y="631" fill="#cffafe" font-family="Consolas, monospace" font-size="16">CMake + Ninja</text>
+</svg>
