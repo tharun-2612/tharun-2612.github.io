@@ -355,6 +355,34 @@
         </div>
       </div>
 
+      <div class="project-card featured-project">
+        <p class="project-kicker">Security-Focused Full-Stack Project</p>
+        <h3>SecureHub</h3>
+        <p>
+          Built a full-stack account portal with a React and Vite interface backed by
+          an Express API and MongoDB. Users can register, sign in, and securely load
+          their own profile, with authorization decisions enforced by the backend.
+        </p>
+        <ul class="project-highlights">
+          <li>Implemented registration and login with bcrypt password hashing, JWT authentication, and authenticated profile requests.</li>
+          <li>Enforced role-based authorization and server-side ownership checks to prevent users from accessing other users' profiles without permission.</li>
+          <li>Added request validation, sanitization, NoSQL injection safeguards, registration and login rate limits, Helmet security headers, and configurable CORS.</li>
+          <li>Connected the frontend to the existing API with bearer-token requests, profile loading, accessible form feedback, logout, and expired-session handling.</li>
+          <li>Added backend Jest/Supertest coverage and focused frontend API-client tests.</li>
+        </ul>
+        <p><strong>Tech:</strong> React, Vite, JavaScript, Node.js, Express, MongoDB, Mongoose, JWT, bcrypt, Jest, Supertest</p>
+        <p><strong>Focus:</strong> Authentication, backend-enforced authorization, secure API integration, input validation, testing</p>
+        <p class="project-impact">
+          <strong>Impact:</strong> Demonstrates end-to-end authentication and profile workflows while keeping authorization authoritative on the server.
+        </p>
+        <p class="project-live-note">
+          <strong>Live demo:</strong> Not deployed yet. SecureHub currently requires a running API and database; no public demo URL is available.
+        </p>
+        <div class="project-links">
+          <a href="https://github.com/tharun-2612/SecureHub" target="_blank" rel="noopener noreferrer" class="btn-sm outline">GitHub</a>
+        </div>
+      </div>
+
       <div class="project-card">
         <figure class="project-preview">
           <img src="assets/project-teamo-preview.svg" alt="TeamO Mart Marketplace Web App preview" loading="lazy" />
